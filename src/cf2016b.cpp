@@ -2,8 +2,6 @@
 #include <string>
 using namespace std;
 
-
-
 int main() {
     int N, A, B;
     cin >> N >> A >> B;
@@ -31,7 +29,7 @@ int main() {
             }
             else cout << "No" << endl;
         }
-        
+
         else cout << "No" << endl;
     }
 
