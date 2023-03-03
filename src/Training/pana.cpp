@@ -1,3 +1,4 @@
+// コーナーケースを探すときの初手は最も小さいパターンである。まずは小さいケースから考える。  
 #include <iostream>
 using namespace std;
 

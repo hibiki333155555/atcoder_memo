@@ -1,3 +1,6 @@
+//　全探索基本
+//
+
 #include <iostream>
 using namespace std;
 
