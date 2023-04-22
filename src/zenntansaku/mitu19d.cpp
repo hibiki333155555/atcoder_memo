@@ -20,7 +20,7 @@ typedef long long ll;
 #define INT_MAX 2147483647
 
 
-string S; int N, cnt;
+string S; int N, cnt = 0;
  
 int main() {
 	cin >> N >> S;
