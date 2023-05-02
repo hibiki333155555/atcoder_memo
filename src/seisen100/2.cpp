@@ -15,7 +15,7 @@ int main() {
 
     int n; cin >> n;
     int C[n], D[n]; rep(i, 0, n) cin >> C[i] >> D[i];
-
+    
     rep(i, 0, n) {
         int dx, dy; dx = C[i] - A[0]; dy = D[i] - B[0];
         

@@ -10,18 +10,15 @@ typedef long long ll;
 
 
 int main() {
-    int n; cin >> n;
-    ll A[n];
-    int cnt[202] = {0};
-    rep(i, 0, n) cin >> A[i];
+    int n, k;
+    cin >> n >> k;
+    int A[n];
+    rep(i,0,n) cin >> A[i];
+    
 
-    ll ans = 0;
-    rep(i, 0, n) {
-        int po = A[i] % 200;
-        ans += cnt[po];
-        cnt[po]++;
-    }
+    rep(i, 0, n)
 
-    cout << ans << "\n";
+
+    cout << n << "\n";
     return 0;
 }

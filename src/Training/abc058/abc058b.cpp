@@ -10,18 +10,13 @@ typedef long long ll;
 
 
 int main() {
-    int n; cin >> n;
-    ll A[n];
-    int cnt[202] = {0};
-    rep(i, 0, n) cin >> A[i];
-
-    ll ans = 0;
-    rep(i, 0, n) {
-        int po = A[i] % 200;
-        ans += cnt[po];
-        cnt[po]++;
+    string O, E; cin >> O >> E;
+    string ans = "";
+    
+    rep(i, 0, O.length()) {
+        ans += O[i];
+        if(E[i])ans += E[i];
     }
-
-    cout << ans << "\n";
+    cout << ans << endl;
     return 0;
 }

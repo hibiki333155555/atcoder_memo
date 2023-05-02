@@ -10,18 +10,16 @@ typedef long long ll;
 
 
 int main() {
-    int n; cin >> n;
-    ll A[n];
-    int cnt[202] = {0};
-    rep(i, 0, n) cin >> A[i];
+    int n;
+    cin >> n;
 
-    ll ans = 0;
-    rep(i, 0, n) {
-        int po = A[i] % 200;
-        ans += cnt[po];
-        cnt[po]++;
+    rep(i, 0, n + 1) {
+        if((int)(i * 1.08) == n) {
+            cout << i << endl;
+            return 0;
+        }
     }
 
-    cout << ans << "\n";
+    cout << ":(" << "\n";
     return 0;
 }
